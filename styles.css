@@ -1,1 +1,13 @@
 /*  your css code here. If applicable */
+ body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    label, input, button {
+      display: block;
+      margin: 10px 0;
+    }
+    input, button {
+      padding: 10px;
+      font-size: 12px;
+    }
