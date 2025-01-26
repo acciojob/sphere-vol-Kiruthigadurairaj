@@ -12,7 +12,7 @@ function volume_sphere(event) {
 
     // Validate input (non-negative and numeric)
     if (isNaN(radius) || radius < 0) {
-        volumeOutput.value = 'Invalid input';
+        volumeOutput.value = 'NaN';
         return;
     }
 
